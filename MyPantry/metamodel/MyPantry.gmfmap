@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfmap:Mapping
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gmfmap="http://www.eclipse.org/gmf/2008/mappings"
+    xmlns:gmftool="http://www.eclipse.org/gmf/2005/ToolDefinition">
+  <nodes>
+    <containmentFeature
+        href="MyPantry.ecore#//Pantry/ingredient"/>
+    <ownedChild
+        relatedDiagrams="//@diagram">
+      <domainMetaElement
+          href="MyPantry.ecore#//Ingredient"/>
+      <labelMappings
+          xsi:type="gmfmap:FeatureLabelMapping">
+        <diagramLabel
+            href="MyPantry.gmfgraph#IngredientLabel"/>
+        <features
+            href="MyPantry.ecore#//Ingredient/name"/>
+      </labelMappings>
+      <tool
+          xsi:type="gmftool:CreationTool"
+          href="MyPantry.gmftool#//@palette/@tools.0/@tools.0"/>
+      <diagramNode
+          href="MyPantry.gmfgraph#Ingredient"/>
+      <compartments>
+        <compartment
+            href="MyPantry.gmfgraph#IngredientMassCompartment"/>
+      </compartments>
+    </ownedChild>
+  </nodes>
+  <diagram>
+    <diagramCanvas
+        href="MyPantry.gmfgraph#MyPantry"/>
+    <domainModel
+        href="MyPantry.ecore#/"/>
+    <domainMetaElement
+        href="MyPantry.ecore#//Pantry"/>
+    <palette
+        href="MyPantry.gmftool#//@palette"/>
+  </diagram>
+</gmfmap:Mapping>

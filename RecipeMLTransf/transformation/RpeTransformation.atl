@@ -1,0 +1,62 @@
+-- @path MM=/RecipeML/metamodel/RecipeML.ecore
+-- @path MM1=/MyPantry/metamodel/MyPantry.ecore
+-- @path MM3=/RecipeML/metamodel/RecipeML.ecore
+
+module RpeTransformation;
+create OUT : MM3 from IN : MM, IN1 : MM1;
+
+rule copyBaseIng {
+	from m1 : MM!BaseIng,
+		 m4 : MM1!Ingredient (m4.x1(m1))
+	to
+	m2 : MM3!Ingredient
+	   (
+		name <- m1.name,
+		mass <- m3
+		),
+	m3 : MM3!Mass(
+		amount <- m1.x2 - m4.pantryconvertUsToG(),
+		unit <- 'g'
+		)
+}
+
+
+
+helper context MM1!Ingredient def :x1(d : MM!BaseIng): Boolean = 
+	if self.name = d.name then 
+		if self.pantryconvertUsToG() < d.x2 then true else false endif
+	else false endif;
+	
+
+helper context MM!BaseIng def: x2 : Real = 
+	if self.count < 1.0  then 
+		let am : Real = 0.0 in 
+		self.amount-> iterate(e; resu : Real =0.0|
+		resu + e.convertUsToG())
+	else
+		self.count
+	endif;
+
+
+
+helper context MM!Amount def : convertUsToG() : Real =
+	if self.unit = 'lb' then
+		self.quantity * 453.59237
+	else
+		if self.unit = 'oz' then
+			self.quantity * 28.34952
+		else
+			self.quantity
+		endif
+	endif;
+
+helper context MM1!Ingredient def : pantryconvertUsToG() : Real =
+	if self.mass.unit = 'lb' then
+		self.mass.amount * 453.59237
+	else
+		if self.mass.unit = 'oz' then
+			self.mass.amount * 28.34952
+		else
+			self.mass.amount
+		endif
+	endif;

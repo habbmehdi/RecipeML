@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_ahL2EDisEeudfNGDnZbh4Q" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_egaEsDisEeudfNGDnZbh4Q" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_egb54DisEeudfNGDnZbh4Q" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_egcg8DisEeudfNGDnZbh4Q" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_egcg8TisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_egcg8jisEeudfNGDnZbh4Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_egcg8zisEeudfNGDnZbh4Q" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_egcg9DisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_egcg9TisEeudfNGDnZbh4Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_egcg9jisEeudfNGDnZbh4Q" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_egcg9zisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_egcg-DisEeudfNGDnZbh4Q"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="MyPantry.ecore#//Pantry"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egaEsTisEeudfNGDnZbh4Q" x="435" y="75"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ftsXMDisEeudfNGDnZbh4Q" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fts-QDisEeudfNGDnZbh4Q" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fts-QTisEeudfNGDnZbh4Q" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_pKu5YDisEeudfNGDnZbh4Q" type="3001">
+        <element xmi:type="ecore:EAttribute" href="MyPantry.ecore#//Ingredient/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pKu5YTisEeudfNGDnZbh4Q"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fts-QjisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fts-QzisEeudfNGDnZbh4Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fts-RDisEeudfNGDnZbh4Q" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fts-RTisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fts-RjisEeudfNGDnZbh4Q"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fts-RzisEeudfNGDnZbh4Q" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fts-SDisEeudfNGDnZbh4Q"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fts-STisEeudfNGDnZbh4Q"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="MyPantry.ecore#//Ingredient"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftsXMTisEeudfNGDnZbh4Q" x="306" y="218"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_H9-cwDiwEeuoP5GwOJJy3A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H9-cwjiwEeuoP5GwOJJy3A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_H9-cwziwEeuoP5GwOJJy3A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_L1wmoDiwEeuoP5GwOJJy3A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="MyPantry.ecore#//Mass/amount"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_L1wmoTiwEeuoP5GwOJJy3A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_M5EdwDiwEeuoP5GwOJJy3A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="MyPantry.ecore#//Mass/unit"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_M5EdwTiwEeuoP5GwOJJy3A"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_H9-cxDiwEeuoP5GwOJJy3A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_H9-cxTiwEeuoP5GwOJJy3A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_H9-cxjiwEeuoP5GwOJJy3A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_H9-cxziwEeuoP5GwOJJy3A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_H9-cyDiwEeuoP5GwOJJy3A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_H9-cyTiwEeuoP5GwOJJy3A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_H9-cyjiwEeuoP5GwOJJy3A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_H9-cyziwEeuoP5GwOJJy3A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="MyPantry.ecore#//Mass"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H9-cwTiwEeuoP5GwOJJy3A" x="588" y="216"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ahL2ETisEeudfNGDnZbh4Q"/>
+  <element xmi:type="ecore:EPackage" href="MyPantry.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_2QwfADitEeuoP5GwOJJy3A" type="4003" source="_egaEsDisEeudfNGDnZbh4Q" target="_ftsXMDisEeudfNGDnZbh4Q">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2QxGEDitEeuoP5GwOJJy3A" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2QxGETitEeuoP5GwOJJy3A" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2QxGEjitEeuoP5GwOJJy3A" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2QxGEzitEeuoP5GwOJJy3A" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2QwfATitEeuoP5GwOJJy3A" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="MyPantry.ecore#//Pantry/ingredient"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2QwfAjitEeuoP5GwOJJy3A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PjPLQDkvEeubFviUMOdNyw" type="4003" source="_ftsXMDisEeudfNGDnZbh4Q" target="_H9-cwDiwEeuoP5GwOJJy3A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PjPyUDkvEeubFviUMOdNyw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PjPyUTkvEeubFviUMOdNyw" x="6" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PjPyUjkvEeubFviUMOdNyw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PjPyUzkvEeubFviUMOdNyw" y="18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PjPLQTkvEeubFviUMOdNyw" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="MyPantry.ecore#//Ingredient/mass"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PjPLQjkvEeubFviUMOdNyw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_FdRt8DgpEeuJpZGRE9d89A" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_LvvKgDgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LvvxkDgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LvwYoDgpEeuJpZGRE9d89A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_f8_i0Dh9Eeu4XrBi69wq9g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Recipe/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_f8_i0Th9Eeu4XrBi69wq9g"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_uXZvYDioEeu-fvtYZGMBOw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Recipe/serves"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uXZvYTioEeu-fvtYZGMBOw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LvwYoTgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LvwYojgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Lvw_sDgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Lvw_sTgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Lvw_sjgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Lvw_szgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Lvw_tDgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Lvw_tTgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//Recipe"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvvKgTgpEeuJpZGRE9d89A" x="485" y="88"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MaW00DgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MaXb4DgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MaXb4TgpEeuJpZGRE9d89A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_OiiCQDgpEeuJpZGRE9d89A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Ingredient/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OiiCQTgpEeuJpZGRE9d89A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_P2SJIDgpEeuJpZGRE9d89A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Ingredient/count"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_P2SJITgpEeuJpZGRE9d89A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZNHA4DhxEeu4XrBi69wq9g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Ingredient/unit"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZNHA4ThxEeu4XrBi69wq9g"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MaXb4jgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MaXb4zgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MaXb5DgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MaXb5TgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MaXb5jgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MaXb5zgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MaXb6DgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MaXb6TgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//Ingredient"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MaW00TgpEeuJpZGRE9d89A" x="204" y="264"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_NPUt8DgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NPUt8jgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NPVVADgpEeuJpZGRE9d89A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_RWTxcDgpEeuJpZGRE9d89A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Method/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RWTxcTgpEeuJpZGRE9d89A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qW82sDhxEeu4XrBi69wq9g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Method/time"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qW82sThxEeu4XrBi69wq9g"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ImEQ8DiDEeu4XrBi69wq9g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Method/step"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ImEQ8TiDEeu4XrBi69wq9g"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NPVVATgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NPVVAjgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NPVVAzgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NPVVBDgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NPVVBTgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NPVVBjgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NPVVBzgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NPVVCDgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//Method"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NPUt8TgpEeuJpZGRE9d89A" x="732" y="276"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TO2ncDgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TO3OgDgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TO3OgTgpEeuJpZGRE9d89A" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TO3OgjgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TO3OgzgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TO3OhDgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TO3OhTgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TO3OhjgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TO3OhzgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TO3OiDgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TO3OiTgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//ModIng"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TO2ncTgpEeuJpZGRE9d89A" x="468" y="276"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TcPjMDgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TcPjMjgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TcPjMzgpEeuJpZGRE9d89A" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TcPjNDgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TcPjNTgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TcPjNjgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TcPjNzgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TcPjODgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_TcQKQDgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TcQKQTgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TcQKQjgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//BaseIng"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TcPjMTgpEeuJpZGRE9d89A" x="204" y="168"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ljmxMDgpEeuJpZGRE9d89A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ljnYQDgpEeuJpZGRE9d89A" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ljnYQTgpEeuJpZGRE9d89A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_mWPvEDgpEeuJpZGRE9d89A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Amount/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mWPvETgpEeuJpZGRE9d89A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_nkE0IDgpEeuJpZGRE9d89A" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Amount/quantity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nkE0ITgpEeuJpZGRE9d89A"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_aoBfsDhxEeu4XrBi69wq9g" type="3001">
+        <element xmi:type="ecore:EAttribute" href="RecipeML.ecore#//Amount/unit"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aoBfsThxEeu4XrBi69wq9g"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ljnYQjgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ljnYQzgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ljnYRDgpEeuJpZGRE9d89A" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ljnYRTgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ljnYRjgpEeuJpZGRE9d89A"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ljnYRzgpEeuJpZGRE9d89A" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ljnYSDgpEeuJpZGRE9d89A"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ljnYSTgpEeuJpZGRE9d89A"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="RecipeML.ecore#//Amount"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljmxMTgpEeuJpZGRE9d89A" x="456" y="468"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_FdRt8TgpEeuJpZGRE9d89A"/>
+  <element xmi:type="ecore:EPackage" href="RecipeML.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_fYmngDgpEeuJpZGRE9d89A" type="4004" source="_TO2ncDgpEeuJpZGRE9d89A" target="_MaW00DgpEeuJpZGRE9d89A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fYmngTgpEeuJpZGRE9d89A" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fYmngjgpEeuJpZGRE9d89A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fYpDwDgpEeuJpZGRE9d89A" type="4004" source="_TcPjMDgpEeuJpZGRE9d89A" target="_MaW00DgpEeuJpZGRE9d89A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fYpDwTgpEeuJpZGRE9d89A" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fYpDwjgpEeuJpZGRE9d89A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ljxwUDgpEeuJpZGRE9d89A" type="4003" source="_NPUt8DgpEeuJpZGRE9d89A" target="_TO2ncDgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ljxwUzgpEeuJpZGRE9d89A" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ljxwVDgpEeuJpZGRE9d89A" x="44" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ljxwVTgpEeuJpZGRE9d89A" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ljxwVjgpEeuJpZGRE9d89A" x="2" y="8"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ljxwUTgpEeuJpZGRE9d89A" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Method/creates"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ljxwUjgpEeuJpZGRE9d89A" points="[-47, 30, 191, -123]$[-207, 133, 31, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FJ1bRjguEeuC1sytl4ueVg" type="4003" source="_LvvKgDgpEeuJpZGRE9d89A" target="_TcPjMDgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FJ1bSTguEeuC1sytl4ueVg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FJ1bSjguEeuC1sytl4ueVg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FJ1bSzguEeuC1sytl4ueVg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FJ1bTDguEeuC1sytl4ueVg" x="2" y="12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FJ1bRzguEeuC1sytl4ueVg" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Recipe/baseings"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJ1bSDguEeuC1sytl4ueVg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FJ_MQDguEeuC1sytl4ueVg" type="4003" source="_LvvKgDgpEeuJpZGRE9d89A" target="_NPUt8DgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FJ_MQzguEeuC1sytl4ueVg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FJ_MRDguEeuC1sytl4ueVg" x="15" y="-25"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FJ_MRTguEeuC1sytl4ueVg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FJ_MRjguEeuC1sytl4ueVg" x="5" y="-15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FJ_MQTguEeuC1sytl4ueVg" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Recipe/methods"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJ_MQjguEeuC1sytl4ueVg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mrxAOjg2Eeu29Ly-dS5a3w" type="4002" source="_MaW00DgpEeuJpZGRE9d89A" target="_ljmxMDgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mrxAPTg2Eeu29Ly-dS5a3w" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mrxAPjg2Eeu29Ly-dS5a3w" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mrxAPzg2Eeu29Ly-dS5a3w" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mrxAQDg2Eeu29Ly-dS5a3w" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mrxAOzg2Eeu29Ly-dS5a3w" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Ingredient/amount"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mrxAPDg2Eeu29Ly-dS5a3w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hSOyEDhqEeu4XrBi69wq9g" id="(0.9339622641509434,0.9897959183673469)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mrxAQTg2Eeu29Ly-dS5a3w" type="4002" source="_ljmxMDgpEeuJpZGRE9d89A" target="_MaW00DgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mrxARDg2Eeu29Ly-dS5a3w" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mrxARTg2Eeu29Ly-dS5a3w" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mrxARjg2Eeu29Ly-dS5a3w" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mrxARzg2Eeu29Ly-dS5a3w" x="-7" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mrxAQjg2Eeu29Ly-dS5a3w" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Amount/amountof"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mrxAQzg2Eeu29Ly-dS5a3w" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eKK08DhqEeu4XrBi69wq9g" id="(0.0,0.34146341463414637)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ey0wYDhqEeu4XrBi69wq9g" id="(0.7735849056603774,0.9897959183673469)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tWJ0kDg2EeuW4tcfKFKBQg" type="4003" source="_NPUt8DgpEeuJpZGRE9d89A" target="_ljmxMDgpEeuJpZGRE9d89A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tWJ0kzg2EeuW4tcfKFKBQg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tWJ0lDg2EeuW4tcfKFKBQg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tWJ0lTg2EeuW4tcfKFKBQg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tWJ0ljg2EeuW4tcfKFKBQg" x="2" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tWJ0kTg2EeuW4tcfKFKBQg" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="RecipeML.ecore#//Method/uses"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tWJ0kjg2EeuW4tcfKFKBQg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,7 @@
+# Tracing options for the RecipeML.diagram plug-in
+
+# Common issues
+RecipeML.diagram/debug=false
+
+# Visual IDs
+RecipeML.diagram/debug/visualID=false

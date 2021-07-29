@@ -1,0 +1,52 @@
+@namespace(uri="org.project.recipeml", prefix="rml")
+package RecipeML;
+
+@gmf.diagram
+class Recipe {
+	val BaseIng[+] baseings;
+	val Method[+] methods;
+	attr String name;
+	attr int serves;
+}
+
+@gmf.node(label="name")
+abstract class Ingredient {
+	attr String name;
+	attr float count;
+
+	@gmf.link
+	ref Amount[*]#amountof amount;
+	attr String unit;
+}
+
+@gmf.node(label="name")
+class Method {
+	attr String name;
+
+	@gmf.compartment
+	val ModIng[*] creates;
+
+	@gmf.compartment
+	val Amount[*] uses;
+	attr int time;
+	attr int step;
+}
+
+@gmf.node(label="name")
+class ModIng extends Ingredient {
+}
+
+@gmf.node(label="name")
+class BaseIng extends Ingredient {
+}
+
+@gmf.node(label="name")
+class Amount {
+	attr String name;
+	attr float quantity;
+
+	@gmf.link
+	ref Ingredient[1]#amount amountof;
+	attr String unit;
+}
+

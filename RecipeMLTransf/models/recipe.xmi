@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rml:Recipe
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:rml="org.project.recipeml"
+    name="ChocolateCake">
+  <baseings
+      name="sugar"
+      amount="//@methods.0/@uses.0"/>
+  <baseings
+      name="flour"
+      amount="//@methods.0/@uses.1"
+      unit="g"/>
+  <baseings
+      name="bakingpowder"
+      amount="//@methods.0/@uses.2"/>
+  <methods name="stir"
+      time="1"
+      step="1">
+    <creates
+        name="CakeMix"
+        amount="//@methods.1/@uses.0"/>
+    <uses quantity="99.0"
+        amountof="//@baseings.0"
+        unit="g"/>
+    <uses quantity="10.0"
+        amountof="//@baseings.1"
+        unit="oz"/>
+    <uses quantity="15.0"
+        amountof="//@baseings.2"
+        unit="g"/>
+  </methods>
+  <methods name="Bake"
+      time="30"
+      step="2">
+    <creates
+        name="Cake"
+        count="1.0"
+        amount="//@methods.2/@uses.0"/>
+    <uses quantity="1.0"
+        amountof="//@methods.0/@creates.0"/>
+  </methods>
+  <methods name="rest"
+      step="3">
+    <creates
+        name="ChocolateCake"/>
+    <uses quantity="1.0"
+        amountof="//@methods.1/@creates.0"/>
+  </methods>
+</rml:Recipe>

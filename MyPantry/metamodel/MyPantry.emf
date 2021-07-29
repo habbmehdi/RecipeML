@@ -1,0 +1,21 @@
+@namespace(uri="org.example.mypantry", prefix="try")
+package MyPantry;
+
+@gmf.diagram(uri="org.example.mypantry", prefix="try")
+class Pantry {
+	val Ingredient[+] ingredient;
+}
+
+@gmf.node(label="name")
+class Ingredient {
+	attr String name;
+
+	@gmf.compartment
+	val Mass mass;
+}
+
+class Mass {
+	attr float amount;
+	attr String unit;
+}
+

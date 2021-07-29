@@ -1,0 +1,7 @@
+# Tracing options for the MyPantry.diagram plug-in
+
+# Common issues
+MyPantry.diagram/debug=false
+
+# Visual IDs
+MyPantry.diagram/debug/visualID=false

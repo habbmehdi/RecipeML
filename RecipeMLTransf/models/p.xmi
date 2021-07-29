@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<try:Pantry
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:try="org.example.mypantry">
+  <ingredient
+      name="egg">
+    <mass amount="50.0"
+        unit="g"/>
+  </ingredient>
+  <ingredient
+      name="oil">
+    <mass amount="20.0"
+        unit="g"/>
+  </ingredient>
+  <ingredient
+      name="flour">
+    <mass amount="350.0"
+        unit="g"/>
+  </ingredient>
+  <ingredient
+      name="sugar">
+    <mass amount="60.0"
+        unit="oz"/>
+  </ingredient>
+  <ingredient
+      name="bakingpowder">
+    <mass amount="50.0"
+        unit="g"/>
+  </ingredient>
+</try:Pantry>

@@ -1,0 +1,155 @@
+
+
+context Method {
+
+	constraint validAmount {
+	check : self.modingCheck()
+	
+	message : 'the newly created ingredient amount should be smaller than the sum of the amount of all other ingredients and of the same unit'
+	
+	}
+}
+
+
+
+
+context Ingredient { 
+	
+	constraint ValidAmount { 
+	check : self.amountCheck()
+	
+	message : 'cannot use more amount than available ' 
+	}
+}
+
+context Ingredient { 
+	
+	constraint ValidAmountUnitless { 
+	check : self.amountCheckUnitless()
+	
+	message : 'cannot use more amount than available '
+	}
+}
+	
+context Ingredient { 
+	
+	constraint ValidAmountUnbreakable { 
+	check : self.amountCheckUnbreakable()
+	
+	message : 'this ingredient cannot be divided into sub ingredients'
+	}
+	
+	
+
+}
+
+operation Ingredient amountCheck() : Boolean {
+
+	if (self.amount.isDefined() and self.unit.isDefined()) { 
+
+		var x = 0;
+		for (n in self.amount) {
+			
+			x = n.quantity + x;}
+
+			if (self.count >= x ){
+		
+				return true;
+			}
+		
+			else {
+		
+				return false;}}
+			
+	else {
+	
+		return true;}}
+
+		
+operation Ingredient amountCheckUnbreakable() : Boolean {
+
+	if (self.count == 0.0 and self.unit.isUndefined()){ 
+		if (self.amount.isDefined()) { 
+
+				for (n in self.amount) {
+				
+					if (n.quantity.round() != n.quantity){
+					return false ;}
+				}
+				return true;
+				
+			}}
+	else {
+		
+			return true;}
+	
+
+
+}
+
+
+operation Ingredient amountCheckUnitless() : Boolean { 
+	
+	if (self.unit.isUndefined() and self.amount.isDefined() and self.count > 0.0){ 
+
+			var x = 0;
+			for (n in self.amount) {
+			
+				x = n.quantity + x;}
+
+				if (self.count >= x ){
+		
+					return true;
+				}
+		
+				else {
+		
+					return false;}}
+		else {
+		
+			return true;}
+	
+}
+		
+operation Method modingCheck() : Boolean {
+	
+
+	if (self.creates.isDefined()) { 
+
+		var x = 0.0;
+		var y = 0.0;
+		var unit = '';
+		
+		for (n in self.uses) {
+		
+			if (n.unit.isDefined()){
+			
+				x = n.quantity + x;
+				if( unit != n.unit and unit != ''){		
+						
+					return false;}			
+				unit = n.unit;}				
+			else{
+			
+				return true;}			
+		for (p in self.creates){	
+			
+			if (p.unit.isDefined()){
+		
+				y = p.count + y;
+				if( unit != p.unit){
+			
+					return false;}
+				unit = p.unit;}
+			else{
+			
+				return true;}}			
+		if ( y > x){
+				return false;}		
+		else{
+				return true;}}}
+	else {
+		return true;}}
+		
+
+

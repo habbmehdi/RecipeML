@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: recipeMLTextual
+Bundle-ManifestVersion: 2
+Bundle-Name: recipeMLTextual
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: recipeMLTextual; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: RecipeML,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.textual.serializer,
+ org.textual,
+ org.textual.services,
+ org.textual.formatting2,
+ org.textual.parser.antlr,
+ org.textual.scoping,
+ org.textual.validation,
+ org.textual.parser.antlr.internal,
+ org.textual.generator
+Import-Package: org.apache.log4j

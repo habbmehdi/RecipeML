@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: MyPantry;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Automatic-Module-Name: MyPantry
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: MyPantry,
+ MyPantry.impl,
+ MyPantry.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.ui.ide;bundle-version="3.17.200"
+Bundle-ActivationPolicy: lazy
